@@ -2,9 +2,10 @@ body {
 	font-family: Arial;
 	background: url("images/handmadecaribbeanfood.jpg");
 	background-size: cover;
+	font-size: 22px
 }
 
-p, blockquote 
+blockquote 
 { 
 color: rgb(110,12,232);
 text-align: center;
@@ -16,9 +17,11 @@ h1, h3
 	text-align: center;
 }
 
-ul
+p, ul
 {
 	text-align: left;
+	color: rgb(67,194,255);
+	font-size: 22px
 }
 
 h3
