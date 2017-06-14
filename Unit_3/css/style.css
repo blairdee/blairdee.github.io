@@ -1,7 +1,20 @@
 body {
-	color: white; 
 	font-family: Arial;
 	background: url("images/handmadecaribbeanfood.jpg");
 	background-size: cover;
 	text-align: center;
+}
+
+p 
+{ 
+color: rgb(110,12,232); 
+}
+
+h1, h3
+{color: rgb(67,194,255);
+}
+
+h3
+{
+	font-style: italic;
 }
