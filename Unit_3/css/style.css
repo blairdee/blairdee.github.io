@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px')
 
 body {
-	font-family: Arial;
 	background: url("https://loveincorporated.blob.core.windows.net/contentimages/main/fruity+coleslaw+cropped.jpg");
 	background-size: cover;
-	font-size: 25px
+	font-size: 25px;
 }
 
 blockquote 
@@ -12,25 +12,31 @@ blockquote
 color: rgb(110,12,232);
 text-align: center;
 font-weight: 800;
+font-family: 'Slabo', serif;
 }
 
 h1
-	color: rgb(67,194,255);
-	text align: center;	
+	{ 
+	color: rgb(255,113,0);
+	text-align: center;
 	font-family: 'Oleo Script', cursive;
+
+}
+
 
 h3
 {
-	color: rgb(67,194,255);
+	color: rgb(255,113,0);
 	text-align: center;
-	font-family: 
+	font-family: 'Oleo Script', cursive;
 }
 
 p, ul
 {
 	text-align: left;
 	color: rgb(67,194,255);
-	font-size: 22px
+	font-size: 22px;
+	font-family: 'Slabo', serif;
 }
 
 h3
