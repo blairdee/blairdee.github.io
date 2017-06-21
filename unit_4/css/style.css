@@ -33,7 +33,7 @@ h3
 p, ul
 {
 	text-align: left;
-	color: rgb(67,194,255);
+	color: rgb(255,113,0);
 	font-size: 22px;
 	font-family: 'Slabo', serif;
 }
@@ -43,3 +43,6 @@ h3
 	font-style: italic;
 }
 
+img
+{text-align: center;
+}
