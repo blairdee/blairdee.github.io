@@ -91,21 +91,14 @@ section
 	width: 30%;
 }
 
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
-
-aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-}
-
-
 .map {
 	clear: both;
 }
