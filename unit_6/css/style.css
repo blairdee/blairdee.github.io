@@ -17,18 +17,21 @@ header {
 
 nav {
 	font-size: 1.2em;
-	width: 50%;
+	width: 100%;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 900;
 	text-align: center;
+	padding: 2em 15em;	
+	
 }
 
 nav a {
 	text-decoration: none;
 	color: #000000; 
-	width: 25%;
 	text-align: center;
 	display: inline-block;
+	vertical-align: middle;
+	padding: 0 .4em;
 }
 
 a:hover {color: #aaaaaa;	
@@ -39,7 +42,6 @@ body {
 }
 
 div {
-background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -72,37 +74,31 @@ h2
 
 section 
 {
-	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 	}
 
 .maincontent {
-	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 .right {
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 0 60px;
 	float: right;
-	width: 42%;
+	width: 50%;
 
 }
 
 .full_img {
 	max-width: 100%;
-	width: 100%;
+	width: 60%;
 }
 
 .left {
-	background-color: violet;
 	padding:20px;
-	border: 1px black solid;		
 	float: left;
-	width: 50%;
+	width: 40%;
 	padding: 40px;
 }
 
@@ -116,8 +112,9 @@ section
 }
 .map {
 	clear: both;
+	text-align: center;
+	vertical-align: middle;
 }
-
 
 img {
 	vertical-align: middle;
@@ -132,6 +129,7 @@ h3
 	border-bottom: 4px double black;
 	display: inline-block;
 	font-weight: 800;
+	text-align: center;
 }
 
 p, ul
@@ -140,11 +138,13 @@ p, ul
 	color: rgb(110,12,232);
 	font-size: 22px;
 	font-family: 'Slabo', serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 
 footer{
-	background-color: #FF957E;
+	background-color: #aaaaaa;
 	border: 1px black solid;
 	padding: 20px; 
 }
