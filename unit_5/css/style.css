@@ -77,11 +77,13 @@ p, ul
 
 h3
 {
-	font-style: italic;
 	font-family: 'Slabo,' serif;
 	font-size: 1.25em;
 	padding: .8em .8em;
 	text-transform: uppercase;
+	border-bottom: 4px double black;
+	display: inline-block;
+	font-weight: 800;
 }
 
 footer{
