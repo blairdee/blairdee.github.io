@@ -68,13 +68,13 @@ section
 	padding: 20px;
 	}
 
-#two_column {
+.maincontent {
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-#right {
+.right {
 	background-color: pink;
 	border: 1px black solid;
 	padding: 20px;
@@ -83,7 +83,7 @@ section
 
 }
 
-#left {
+.left {
 	background-color: violet;
 	padding:20px;
 	border: 1px black solid;		
