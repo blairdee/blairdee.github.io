@@ -1,12 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;	
+}
+
 body {
 	background-size: cover;
 	font-size: 25px;
 }
 
-#"company description" 
+aside {
+	background color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div, section {
+	background color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
 
 h1
 	{ 
@@ -46,4 +74,10 @@ h3
 	font-size: 1.25em;
 	padding: .8em .8em;
 	text-transform: uppercase;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px; 
 }
