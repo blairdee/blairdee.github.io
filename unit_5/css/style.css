@@ -71,7 +71,8 @@ p, ul
 	color: rgb(110,12,232);
 	font-size: 22px;
 	font-family: 'Slabo', serif;
-	padding: .8em 2em;
+	padding: 0 4em;
+	margin: 0 2em;
 }
 
 h3
