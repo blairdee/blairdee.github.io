@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;	
+	font-size: 1.8em;
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: #00000; 
+	margin: 1.8em;
+	display: inline-block;
+}
+
+a:hover {color: #aaaaaa;	
+}
+
+body {
+	font-size: 25px;
+}
+
+div {
+background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#hero { 
+	display: block;
+	width: 100%;
+	margin: 0;
+	background:#0000000;
+
+}
+
+h1
+	{ 
+	color: rgb(255,113,0);
+	text-align: center;
+	font-family: 'Oleo Script', cursive;
+	font-size: 3em;
+	border-bottom: 4px double black;
+	display: inline-block;
+}
+
+h2
+{
+	color: rgb(255,113,0);
+	text-align: center;
+	font-family: 'Oleo Script', cursive;
+	font-size: 2em
+}
+
+section 
+{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	}
+#two-column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#right {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+#left {
+	background-color: #E55B88;
+	padding:20px;
+	border: 1px black solid;		
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+}
+
+
+.map {
+	clear: both;
+}
+
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+h3
+{
+	font-family: 'Slabo,' serif;
+	font-size: 1.25em;
+	padding: .8em .8em;
+	text-transform: uppercase;
+	border-bottom: 4px double black;
+	display: inline-block;
+	font-weight: 800;
+}
+
+p, ul
+{
+	text-align: left;
+	color: rgb(110,12,232);
+	font-size: 22px;
+	font-family: 'Slabo', serif;
+	padding: .8em 8em;
+	margin: 2em 4em
+}
+
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px; 
+}
